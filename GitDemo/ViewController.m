@@ -15,6 +15,8 @@
 
 @property (nonatomic, strong) TestClass *testClass;
 
+-(void)sayByeBye;
+
 @end
 
 
@@ -30,7 +32,7 @@
     self.sum = a + b;
     
     NSLog(@"The result is: %d", self.sum);
-
+    NSLog(@"Bye - Bye");
 }
 
 
