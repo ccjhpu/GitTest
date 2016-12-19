@@ -18,12 +18,19 @@
 -(void)sayByeBye;
 
 -(void)sayHello;
+
+-(void)greet;
+
 @end
 
 
 
 @implementation ViewController
 
+-(void)greet{
+    
+   NSLog(@"greet---");
+}
 -(void)sayHello{
     NSLog(@"Hello");
 }
