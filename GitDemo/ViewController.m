@@ -27,6 +27,10 @@
 
 @implementation ViewController
 
+-(void)aVeryCoolMethod{
+    NSLog(@"I'm feeling that you'll discard me... Really?");
+}
+
 -(void)greet{
     
    NSLog(@"greet---");
