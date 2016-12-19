@@ -53,6 +53,8 @@
     NSLog(@"The result is:－－－－－");
 
     [self sayByeBye];
+    
+    [self greet];
 }
 
 - (void)didReceiveMemoryWarning
