@@ -54,7 +54,7 @@
 
     [self sayByeBye];
     
-    [self greet];
+    [self greet];////////////
 }
 
 - (void)didReceiveMemoryWarning
