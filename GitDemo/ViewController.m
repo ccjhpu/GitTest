@@ -38,6 +38,8 @@
     NSLog(@"The result is: %d", self.sum);
     
     [self sayHello];
+    
+    NSLog(@"The result is:－－－－－");
 
 }
 
